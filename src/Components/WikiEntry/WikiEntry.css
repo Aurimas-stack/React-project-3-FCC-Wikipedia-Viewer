@@ -1,0 +1,23 @@
+.wikientry {
+    margin:20px 0;
+    background-color:#fff;
+    padding:30px;
+    max-width: 75%;
+    border-radius: 5px;
+    border:1px solid #000;
+    text-decoration: none;
+}
+.wikientry:hover {
+    cursor:pointer;
+    background-color:rgb(216, 212, 212);
+}
+.title {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.title, .text {
+    color:#000;
+}
+.text {
+    margin:10px 0 0 0;
+}
