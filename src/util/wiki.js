@@ -4,7 +4,6 @@ const searchWiki = {
         return fetch(`https://cors-anywhere.herokuapp.com/https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${term}&format=json`).then((response) => {
         return response.json();
       }).then((jsonResponse) => {
-        console.log(jsonResponse)
         if(jsonResponse.query) {
           return jsonResponse.query.search.map((entry) => {
             return {
